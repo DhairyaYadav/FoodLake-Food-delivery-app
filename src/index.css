@@ -11,3 +11,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#carousel {
+  max-height: 700px;
+}
+
+.underline-on-hover {
+  text-decoration-line: none;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 0.2s ease-in-out;
+}
+
+.underline-on-hover:hover {
+  border-bottom: 4px solid 	#198754;
+  color: black;
+}
